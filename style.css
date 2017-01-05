@@ -12,26 +12,33 @@ a {
   color: white;
 }
 
-.project-wrapper h2 {
-  text-align: center;
-  padding-bottom: 2vh;
+.top {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
 }
 
-.top {
-  display: flex;
+.top-content {
+  padding-left: 2%;
 }
 
 .top img {
-  max-width: 20vh;
-  max-height: 20vh;
-
+  max-width: 25vh;
+  max-height: 25vh;
 }
+
 .project-wrapper {
   display: flex;
   flex-direction: column;
   padding: 2%;
 
 }
+
+.project-wrapper h2 {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
 .project-wrapper img {
   max-width: 20vw;
   max-height: 18vh;
@@ -40,6 +47,7 @@ a {
 
 .project {
   display: flex;
+  flex-direction: column;
   padding-bottom: 3vh;
 }
 
@@ -47,7 +55,7 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 1vh;
-  background-color: #f8208A
+  background-color: #9C345A
 }
 footer img {
 /*  max-width: 64px;
