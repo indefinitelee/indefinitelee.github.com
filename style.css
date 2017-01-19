@@ -11,10 +11,15 @@ p {
   line-height: 1.5em;
   font-size: 26px;
   text-align: justify;
+  display: inline;
 }
 
 a {
   color: white;
+}
+
+h2 {
+  display: inline;
 }
 
 .top {
@@ -91,18 +96,17 @@ a {
 }
 
 .project {
-  display: flex;
-  flex-direction: column;
   height: 80vh;
   padding-bottom: 3vh;
   border: solid rgb(200, 200, 200) 2px;
   margin: 10px 0;
+  padding: 2%;
 }
 
-.project {
-  padding: 2%;
-  border: solid rgb(200, 200, 200) 2px;
-  margin: 10px 0;
+.project-text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2vw;
 }
 
 .left {
